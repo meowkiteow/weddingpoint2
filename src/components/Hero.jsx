@@ -83,7 +83,7 @@ const Hero = () => {
                 <motion.div
                     className="relative z-20 pointer-events-none"
                     style={{
-                        width: isMobile ? '85vw' : '47vw', // Mobile wider text
+                        width: isMobile ? '80vw' : '47vw',
                         aspectRatio: '767 / 170',
                         opacity: textOpacity,
                         y: textY,
@@ -139,8 +139,8 @@ const Hero = () => {
                         src="/images/67b77167515aa1b498a154c4_Renders4.svg"
                         alt="Creating Culinary Gatherings Since 2019"
                         style={{
-                            height: isMobile ? 'auto' : '91vh',
-                            width: isMobile ? '70vw' : 'auto',
+                            height: isMobile ? '65vh' : '91vh',
+                            width: 'auto',
                         }}
                         initial={{ opacity: 0, scale: 0.95 }}
                         animate={{ opacity: 1, scale: 1 }}
